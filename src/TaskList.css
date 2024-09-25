@@ -1,0 +1,78 @@
+/* Estilos para a tabela de tarefas */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    vertical-align: middle;
+  }
+  
+  .task-table th {
+    background-color: #d7d7d7;
+    font-weight: bold;
+  }
+  
+  
+  .priority-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+  
+
+  
+  /* Estilos para a célula da tarefa */
+  .task-cell {
+    width: 70%;
+  }
+  
+  .task-header {
+    width: 70%;
+  }
+  
+  /* Estilos para ícones nos cabeçalhos */
+  .header-icon {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  /* Estilização dos botões de remoção e atualização */
+  button.remove-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  button.remove-button:hover {
+    background-color: #c12c27;
+  }
+
+  button.update-button {
+    background-color: #034357;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  button.update-button:hover {
+    background-color: #41a7c5;
+  }
